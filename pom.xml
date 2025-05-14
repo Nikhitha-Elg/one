@@ -50,11 +50,11 @@
   	</distributionManagement>
 	
 	<pluginRepositories>
-	    <pluginRepository>    
-		<id>central</id>
-		<name>Maven Central</name>
-		<url>http://repo.maven.apache.org/maven2</url>
-	    </pluginRepository>
-	</pluginRepositories>
+          <pluginRepository>
+            <id>central</id>
+            <name>Maven Central</name>
+            <url>https://repo.maven.apache.org/maven2</url>  <!-- ✅ Correct -->
+          </pluginRepository>
+        </pluginRepositories>
 	
 </project>
